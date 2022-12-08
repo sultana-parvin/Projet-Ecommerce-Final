@@ -1,0 +1,36 @@
+body{
+    background-color: lightgray;
+}
+header.head{
+    margin: 20px;
+    background-color: rgb(236, 226, 226);
+}
+img.logo-img{
+    width: 150px;
+    
+    
+}
+
+img.Shop-bag{
+    width: 51px;
+    height: 51px;
+}
+
+ul.header-list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ul.header-client{
+    list-style: none;
+    display: flex;
+}
+    
+
