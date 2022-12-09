@@ -1,0 +1,124 @@
+section.new-collection{
+background-color: rgb(232, 240, 244);
+width: 100% auto;
+margin: -8px;
+padding-bottom: 150px;
+}
+h2.new{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+p{
+    text-align: center;
+ 
+}
+
+figure.category-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+div.category-product{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+img.category-img{
+    width: 342px;
+    height: 429px;
+    padding-bottom: 50px;
+    background-color: rgb(203, 188, 188);
+}
+
+a.category-name{
+background-color: rgb(158, 147, 147);
+padding: 10px;
+width: 150px;
+margin-top: -30px;
+text-align: center;
+
+}
+
+
+/* Section 2 Meilleure mode */
+
+section.best-mode{
+background-color: rgb(245, 242, 242);
+margin: -8px;
+padding: 100px;
+padding-bottom: 150px;
+display: flex;
+gap: 200px;
+}
+
+div.best-mode-left{
+width: 500px;
+}
+
+img.best-mode-img{
+    width: 500px;
+    height: 650px;
+    border-radius: 100px 0 0 0;
+    
+   
+
+}
+
+div.best-mode-right{
+  width: 450px;  
+}
+
+h2.meilleure-mode{
+    font-size: 60px;
+}
+
+
+ul.about-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(241, 237, 232);
+    width: 400px;
+    margin-top: -50px;
+    margin-left: 400px;
+    position: relative;
+    
+
+}
+
+li.list-boutique{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+li.list-boutique:last-child {
+    border-right: none;
+}
+
+span.list-numero{
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
+/* section 3 best seller products */
+
+
+
+
+
+
