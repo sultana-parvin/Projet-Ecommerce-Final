@@ -67,9 +67,6 @@ img.best-mode-img{
     width: 500px;
     height: 650px;
     border-radius: 100px 0 0 0;
-    
-   
-
 }
 
 div.best-mode-right{
@@ -88,7 +85,7 @@ ul.about-list{
     gap: 30px;
     text-align: center;
     padding: 20px;
-    background-color: rgb(241, 237, 232);
+    background-color: rgb(233, 204, 170);
     width: 400px;
     margin-top: -50px;
     margin-left: 400px;
@@ -151,11 +148,15 @@ a.best-products-link{
 }
 
 ul.best-products-lists{
+    margin-top: 70px;
     padding-top: 50px;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    overflow-x: auto;
+    grid-auto-flow: column;
+
 }
 
 li.best-products-list{
@@ -209,13 +210,195 @@ ul.our-products-lists{
     
 }
 
-li.our-products-list{
+/* li.our-products-list{
 
-}
+} */
 
 img.our-products-img{
     width: 200px;
     height: 260px;
 }
 
+/* section 5 promo */
 
+
+section.promo{
+ background-color: rgb(208, 214, 223);
+ margin: -8px;
+ margin-top: -20px;
+ padding: 50px;
+ display: flex;
+ gap: 100px;
+ justify-content: center;
+}
+
+div.promo-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    gap: 10px;
+
+    
+}
+
+h2.promo-h2{
+    font-size: 55px;
+}
+p.promo-p{
+    text-align: left;
+    margin-top: -20px;
+    
+}
+time.promo-time-list{
+    display: flex;
+    gap: 15px;
+}
+
+span.time{
+   
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+   text-align: center;
+    
+}
+
+span.promo-time{
+   font-size: 42px;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+a.promo-link{
+    color: white;
+    padding: 10px;
+    background-color: black;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+img.promo-img{
+    width: 500px;
+    height: 675px;
+}
+
+/* section 6 avis */
+
+section.avis{
+    background-color: rgb(217,217,217);
+    margin: -8px;
+    margin-top: -20px;
+    padding-top: 100px;
+}
+
+h2.avis-h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+div.avis-div{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    overflow-x: auto;
+    grid-auto-flow: column;
+}
+
+figure.avis-figure{
+    background-color: rgb(204, 184, 184);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+blockquote.avis-blockquote{
+   padding-top: 30px;
+   text-align: center;
+}
+
+span.avis-span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p.avis-p{
+    font-weight: normal;
+}
+
+img.avis-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 130px;
+    
+}
+
+figcaption.avis-nom{
+    text-align: center;
+}
+
+ul.img-link-list{
+    margin-top: 200px;
+    list-style: none;
+    display: flex;
+    padding-bottom: 20px;
+    margin-left: -30px;
+}
+
+img.img-link{
+    width: 260px;
+    height: 300px;
+}
+
+/* footer part */
+
+footer.footer-section{
+    background-color: rgb(57, 51, 51);
+    margin: -8px;
+    margin-top: -20px;
+    padding-bottom: 100px;
+}
+
+a.social{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    margin-left: 600px;
+    
+    
+}
+
+
+ul.footer-list{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    font-size: 15px;
+    margin-top: 100px;
+    justify-content: center;
+    
+}
+
+a.menu-link{
+    color: white;
+}
+
+p.footer-p{
+margin-top: 100px;
+color: white;
+}
