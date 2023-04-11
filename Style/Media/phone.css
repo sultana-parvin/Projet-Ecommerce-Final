@@ -187,7 +187,7 @@
     }
 
     h2.our-products-h2{
-        transform: translate(0, 80px);
+        transform: translate(0, 70px);
     }
     
     nav.our-products-nav{
@@ -196,7 +196,7 @@
         flex-direction: column;
         justify-content: center;
         gap: 30px;
-        padding: 100px;
+        padding: 130px 50px 50px 80px;
         background-color: white;
         margin-top: -50px;
         border-radius: 10px;
@@ -247,6 +247,7 @@
     div.promo-left{
         max-width: 100%;
         align-items: center;
+       
 
     }
 
@@ -255,6 +256,7 @@
     }
     p.promo-p{
         text-align: center;
+        margin: 10px 0;
         
     }
 
@@ -289,7 +291,8 @@
         flex-direction: column;
         align-items: center;
         padding-bottom: 20px;
-        margin-left: -30px;
+        margin-left: 0;
+        
     }
     
 
