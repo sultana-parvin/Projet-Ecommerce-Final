@@ -6,11 +6,19 @@
 @import "/Style/Media/tablet.css";
 
 *{
+    
+    font-family: "Inter";
+   
+}
+body{ 
+    width: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Inter";
+    
 }
 
 a {
+    text-decoration: none;
     font-family: "Lato";
+    color: black;
 }

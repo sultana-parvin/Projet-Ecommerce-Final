@@ -1,13 +1,15 @@
 body{
-    background-color: rgb(236, 226, 226);
+    width: 100%;
+    background-color: rgb(235, 226, 226);
     
 }
-header.head{
-    margin: 40px 40px 40px 40px;
-    background-color: rgb(236, 226, 226);
-    width: 100% auto;
-   
-    
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #E3E6f3;
+    box-shadow: 0 2px 5px rgb(161, 157, 157);
 }
 img.logo-img{
     width: 250px;
@@ -22,38 +24,65 @@ img.Shop-bag{
     margin-top: -8px;
 }
 
-ul.header-list{
+
+#navbar{
     display: flex;
-    gap: 70px;
-    list-style: none;
-    font-size: 15px;
-    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    
     
 }
-a{
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    transition: 0.3 ease;
 }
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(209, 170, 61);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: rgb(209, 170, 61);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
 ul.header-client{
     list-style: none;
     display: flex;
     gap: 15px;
-    margin-top: 30px;
+    margin-top: 30px
+}
+
+#client-area{
+    text-decoration: none;
 }
 
 a#client-area{
     border: 2px solid black;
     padding: 8px;
     font-size: 15px;
+    color: black;
     
 }
-nav.header-menu{
-    display: flex;
-    gap: 190px;
-    margin-top: 30px;
-}
+
 section.header-section{
   display: flex;
   gap: 300px;

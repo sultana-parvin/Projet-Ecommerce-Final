@@ -1,6 +1,6 @@
 section.new-collection{
 background-color: rgb(232, 240, 244);
-width: 100% auto;
+width: 100%;
 margin: -8px;
 padding-bottom: 150px;
 }
@@ -356,6 +356,7 @@ ul.img-link-list{
     margin-top: 200px;
     list-style: none;
     display: flex;
+    justify-content: center;
     padding-bottom: 20px;
     margin-left: -30px;
 }
