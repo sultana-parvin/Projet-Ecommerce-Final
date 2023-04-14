@@ -1,0 +1,11 @@
+.header-section-collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Assets/Img/Banner.collection.jpg);
+    margin-bottom: 100px;
+    padding: 50px;
+
+}
+
