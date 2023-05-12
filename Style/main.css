@@ -1,7 +1,7 @@
 section.new-collection{
 background-color: rgb(232, 240, 244);
-width: 100%;
-margin: -8px;
+/* width: 100% auto; */
+/* margin: -8px; */
 padding-bottom: 150px;
 }
 h2.new{
@@ -52,7 +52,7 @@ text-align: center;
 
 section.best-mode{
 background-color: rgb(245, 242, 242);
-margin: -8px;
+/* margin: -8px; */
 padding: 100px;
 padding-bottom: 150px;
 display: flex;
@@ -116,11 +116,12 @@ span.list-numero{
 
 section.best-products{
     background-color: rgb(140, 140, 140);
-    margin: -8px;
+    /* margin: -8px; */
     margin-top: -20px;
     display: flex;
     gap: 80px;
     padding-bottom: 50px;
+    /* width: 100% auto; */
 }
 
 div.best-products-left{
@@ -184,11 +185,18 @@ div.best-products-btm{
 }
 /* section 4 Nos Produits */
 
-section.our-products{
+
+
+
+
+
+
+
+ section.our-products{
     background-color: rgb(210, 193, 193);
-    margin: -8px;
     margin-top: -20px; 
     padding: 30px; 
+    
 }
 h2.our-products-h2{
     text-align: center;
@@ -206,7 +214,7 @@ nav.our-products-nav{
 
 }
 
-ul.our-products-lists{
+/* ul.our-products-lists{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -215,28 +223,28 @@ ul.our-products-lists{
     gap: 50px;
 
     
-}
+} */ 
 
 /* li.our-products-list{
 
 } */
 
-img.our-products-img{
+/* img.our-products-img{
     width: 200px;
     height: 260px;
-}
+} */
 
 /* section 5 promo */
 
 
 section.promo{
  background-color: rgb(208, 214, 223);
- margin: -8px;
  margin-top: -20px;
  padding: 50px;
  display: flex;
  gap: 100px;
  justify-content: center;
+ width: 100% auto;
 }
 
 div.promo-left{
@@ -302,7 +310,6 @@ img.promo-img{
 
 section.avis{
     background-color: rgb(217,217,217);
-    margin: -8px;
     margin-top: -20px;
     padding-top: 100px;
 }
@@ -358,6 +365,7 @@ figcaption.avis-nom{
 }
 
 ul.img-link-list{
+    width: 100% auto;
     margin-top: 200px;
     list-style: none;
     display: flex;
@@ -367,6 +375,6 @@ ul.img-link-list{
 }
 
 img.img-link{
-    width: 260px;
+    width: fit-content;
     height: 300px;
 }

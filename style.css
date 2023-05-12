@@ -5,6 +5,8 @@
 @import "/Style/Media/phone.css";
 @import "/Style/Media/tablet.css";
 @import "/Style/collection.css";
+@import "/Style/feature.css";
+@import "/Style/sproduct.css";
 
 *{
     
@@ -12,7 +14,7 @@
    
 }
 body{ 
-    width: 100%;
+    width: 100% ;
     padding: 0;
     margin: 0;
     
@@ -22,4 +24,119 @@ a {
     text-decoration: none;
     font-family: "Lato";
     color: black;
+}
+
+/* check portion feature */
+
+h5{
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
+
+
+
+h6{ 
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+
+/* pagination */
+
+
+
+
+.pagination {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #5a9b5c;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* newsletter section of footer */
+
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(Assets/Img/banner\ newsletter.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #a3b9d8;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #383838;
+
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #666363;
+
+}
+
+#newsletter p span{
+
+    color: #e7bd61;
+
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid rgba(187, 182, 182, 0.164);
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+#newsletter button{
+    background-color: #54c583;
+    color: #383838;
+    padding: 7px;
+    border-color: #c8d4ca;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }

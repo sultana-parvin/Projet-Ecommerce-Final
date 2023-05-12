@@ -10,6 +10,7 @@ body{
     padding: 20px 80px;
     background-color: #E3E6f3;
     box-shadow: 0 2px 5px rgb(161, 157, 157);
+    /* width: 100% auto; */
 }
 img.logo-img{
     width: 250px;
@@ -18,11 +19,6 @@ img.logo-img{
     
 }
 
-img.Shop-bag{
-    width: 35px;
-    height: 35px;
-    margin-top: -8px;
-}
 
 
 #navbar{
@@ -45,7 +41,9 @@ img.Shop-bag{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     transition: 0.3 ease;
+
 }
+
 
 #navbar li a:hover,
 #navbar li a.active{
@@ -64,12 +62,7 @@ img.Shop-bag{
 }
 
 
-ul.header-client{
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin-top: 30px
-}
+
 
 #client-area{
     text-decoration: none;
@@ -81,12 +74,13 @@ a#client-area{
     font-size: 15px;
     color: black;
     
-}
+} 
 
 section.header-section{
   display: flex;
   gap: 300px;
   margin-top: 40px;
+  /* width: 100% auto; */
 }
 
 h1{
