@@ -7,6 +7,9 @@
 @import "/Style/collection.css";
 @import "/Style/feature.css";
 @import "/Style/sproduct.css";
+@import "/Style/connexion.css";
+@import "/Style/cart.css";
+@import "/Style/admin.css";
 
 *{
     
@@ -140,3 +143,7 @@ h6{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
+
+/* admin pannel */
+

@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,34 +10,34 @@
 </head>
 <body>
     <section id="header">
-            <a href="index.html">
+            <a href="index.php">
                 <img class="logo-img" src="/Assets/Img/ZIMAM.png">
             </a>
             <div>
                 <ul id="navbar">
-                    <li><a class="active" href="#">HOME</a>
+                    <li><a class="active" href="index.php">HOME</a>
                     </li>
                     <li>
-                    <a href="Collection.html">COLLECTION</a>
+                    <a href="Collection.php">COLLECTION</a>
                     </li>
                     <li>
-                    <a href="Homme.html">HOMME</a>
+                    <a href="Homme.php">HOMME</a>
                     </li>
                     <li>  
-                    <a href="Femme.html">FEMME</a>
+                    <a href="Femme.php">FEMME</a>
                     </li>
                     <li>
-                    <a href="Enfant.html">ENFANT</a>
+                    <a href="Enfant.php">ENFANT</a>
                     </li>
                     <li>
-                    <a href="About.html">ABOUT</a>
+                    <a href="About.php">ABOUT</a>
                     </li>
                     <li>
-                        <a href="Cart.html">
+                        <a href="Cart.php">
                             <i class="fa-solid fa-cart-shopping cart" style="color: #0c0d0e;"></i>
                         </a></li>
                     <li>
-                        <a id="client-area" href="">CONNEXION</a>
+                        <a id="client-area" href="register_form.php">CONNEXION</a>
                     </li>
                 </ul>
             </div>
@@ -544,41 +544,6 @@
                     <figcaption class="avis-nom">Sabrina_</figcaption>
                 </figure>
             </div>
-            <ul class="img-link-list">
-                <li>
-                    <a href="">
-                        <img class="img-link" src="/Assets/Img/panjabi.jpg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="img-link" src="/Assets/Img/baby dress.jpg" alt="">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <img class="img-link" src="/Assets/Img/Indian kurti.jpg" alt="">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <img class="img-link" src="/Assets/Img/Baby Lehenga.jpg" alt="">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <img class="img-link" src="/Assets/Img/indian katan 3.jpg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="img-link" src="/Assets/Img/Indian Tosor.jpg" alt="">
-                    </a>
-                </li>
-            </ul>
         </section>
     </main>
     <footer class="footer-section">
@@ -601,23 +566,25 @@
                 <li><a href="#">HOME</a>
                 </li>
                 <li>
-                <a href="Collection.html">COLLECTION</a>
+                <a href="Collection.php">COLLECTION</a>
                 </li>
                 <li>
-                <a href="Homme.html">HOMME</a>
+                <a href="Homme.php">HOMME</a>
                 </li>
                 <li>
-                <a href="Femme.html">FEMME</a>
+                <a href="Femme.php">FEMME</a>
                 </li>
                 <li>
-                <a href="Enfant.html">ENFANT</a>
+                <a href="Enfant.php">ENFANT</a>
                 </li>
                 <li>
-                <a href="About.html">ABOUT</a>
+                <a href="About.php">ABOUT</a>
                 </li>
             </ul>
         </div>
         <p class="footer-p">Copyright ZIMAM_All right reserved</p>
     </footer>
+
+
 </body>
 </html>

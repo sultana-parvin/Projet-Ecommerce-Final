@@ -1,5 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+
+
+
+<!DOCTYPE php>
+<php lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,34 +13,34 @@
 </head>
 <body>
     <section id="header">
-        <a href="index.html">
+        <a href="index.php">
             <img class="logo-img" src="/Assets/Img/ZIMAM.png">
         </a>
         <div>
             <ul id="navbar">
-                <li><a href="index.html">HOME</a>
+                <li><a href="index.php">HOME</a>
                 </li>
                 <li>
-                <a href="Collection.html">COLLECTION</a>
+                <a class="active" href="Collection.php">COLLECTION</a>
                 </li>
                 <li>
-                <a href="Homme.html">HOMME</a>
+                <a href="Homme.php">HOMME</a>
                 </li>
                 <li>
-                <a class="active" href="Femme.html">FEMME</a>
+                <a href="Femme.php">FEMME</a>
                 </li>
                 <li>
-                <a href="Enfant.html">ENFANT</a>
+                <a href="Enfant.php">ENFANT</a>
                 </li>
                 <li>
-                <a href="About.html">ABOUT</a>
+                <a href="About.php">ABOUT</a>
                 </li>
                 <li>
-                    <a href="Cart.html">
+                    <a href="Cart.php">
                         <i class="fa-solid fa-cart-shopping cart" style="color: #0c0d0e;"></i>
                     </a></li>
                 <li>
-                    <a id="client-area" href="">CONNEXION</a>
+                    <a id="client-area" href="register_form.php">CONNEXION</a>
                 </li>
             </ul>
         </div>
@@ -56,7 +59,6 @@
         <a class="header-btn-acheter" href="">ACHETEZ MAINTENANT</a>
     
 </section>
-
 
 
 <section id="feature" class="section-p1">
@@ -106,7 +108,7 @@
                         </div>
                         <h4>£120</h4>
                     </div>
-                   <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
+                   <a href="#" id="cart-icon"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
                 </div>
                 <div class="pro">
                     <img src="Assets/Img/Indian dress.jpg">
@@ -122,9 +124,9 @@
                         </div>
                         <h4>£150</h4>
                     </div>
-                   <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
+                   <a href="#" id="cart-icon"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
                 </div>
-                <div class="pro">
+                <div class="pro" onclick="window.location.href='sproduct.php';">
                     <img src="Assets/Img/panjabi.jpg">
                     <div class="des">
                         <span>Panjabi</span>
@@ -138,7 +140,7 @@
                         </div>
                         <h4>£80</h4>
                     </div>
-                   <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
+                   <a href="#" id="cart-icon"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
                 </div>
                 <div class="pro">
                     <img src="Assets/Img/baby dress.jpg">
@@ -154,7 +156,7 @@
                         </div>
                         <h4>£40</h4>
                     </div>
-                   <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
+                   <a href="#" id="cart-icon"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
                 </div>
                 <div class="pro">
                     <img src="Assets/Img/salwar kameej.jpg">
@@ -170,7 +172,7 @@
                         </div>
                         <h4>£80</h4>
                     </div>
-                   <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
+                   <a href="#" id="cart-icon"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
                 </div>
                 <div class="pro">
                     <img src="Assets/Img/Baby Lehenga.jpg">
@@ -186,7 +188,7 @@
                         </div>
                         <h4>£120</h4>
                     </div>
-                   <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
+                   <a href="#" id="cart-icon"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
                 </div>
                 <div class="pro">
                     <img src="Assets/Img/Indian Tosor.jpg">
@@ -202,7 +204,7 @@
                         </div>
                         <h4>£120</h4>
                     </div>
-                   <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
+                   <a href="#" id="cart-icon"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
                 </div>
                 <div class="pro">
                     <img src="Assets/Img/Indian kurti.jpg">
@@ -218,7 +220,7 @@
                         </div>
                         <h4>£120</h4>
                     </div>
-                   <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
+                   <a href="#" id="cart-icon"><i class="fa-solid fa-cart-shopping cart" style="color: #088178;"></i></a>
                 </div>
             </div>
 </section>
@@ -226,26 +228,34 @@
             <a class="social" href="">FOLLOW OUR INSTAGRAM <strong>@ZIMAM_TRENDS</strong></a>
             <div>
                 <ul id="navbar">
-                    <li><a href="index.html">HOME</a>
+                    <li><a href="index.php">HOME</a>
                     </li>
                     <li>
-                    <a href="Collection.html">COLLECTION</a>
+                    <a href="Collection.php">COLLECTION</a>
                     </li>
                     <li>
-                    <a href="Homme.html">HOMME</a>
+                    <a href="Homme.php">HOMME</a>
                     </li>
                     <li>
-                    <a href="Femme.html">FEMME</a>
+                    <a href="Femme.php">FEMME</a>
                     </li>
                     <li>
-                    <a href="Enfant.html">ENFANT</a>
+                    <a href="Enfant.php">ENFANT</a>
                     </li>
                     <li>
-                    <a href="About.html">ABOUT</a>
+                    <a href="About.php">ABOUT</a>
                     </li>
                 </ul>
             </div>
             <p class="footer-p">Copyright ZIMAM_All right reserved</p>
         </footer>
+
+
+        
     </body>
-    </html>
+
+
+
+
+
+</html>
