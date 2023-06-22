@@ -120,7 +120,7 @@ if(isset($_POST['submit'])){
                 <input type="password" name="password" required placeholder="Password">  
                 
                 
-                <input type="submit" name="submit" value="Login Now" class="form-btn">
+                <input type="submit" name="submit" value="Se connecter" class="form-btn">
                 <p>Besoin d'un compte? <a href="register_form.php">S'inscrire</a></p>
                 
             </form>

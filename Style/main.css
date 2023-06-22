@@ -116,12 +116,11 @@ span.list-numero{
 
 section.best-products{
     background-color: rgb(140, 140, 140);
-    /* margin: -8px; */
     margin-top: -20px;
     display: flex;
     gap: 80px;
     padding-bottom: 50px;
-    /* width: 100% auto; */
+    
 }
 
 div.best-products-left{

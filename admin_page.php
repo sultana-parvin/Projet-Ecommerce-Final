@@ -66,7 +66,7 @@ if (!isset($_SESSION['admin_name'])) {
                             <i class="fa-solid fa-cart-shopping cart" style="color: #0c0d0e;"></i>
                         </a></li>
                     <li>
-                        <a class="active" id="client-area" href="register_form.php">CONNEXION</a>
+                        <a class="active" id="client-area" href="login_form.php">CONNEXION</a>
                     </li>
                 </ul>
             </div>

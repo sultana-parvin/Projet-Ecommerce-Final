@@ -37,7 +37,7 @@
                             <i class="fa-solid fa-cart-shopping cart" style="color: #0c0d0e;"></i>
                         </a></li>
                     <li>
-                        <a id="client-area" href="connexion.php">CONNEXION</a>
+                        <a id="client-area" href="login_form.php">CONNEXION</a>
                     </li>
                 </ul>
             </div>

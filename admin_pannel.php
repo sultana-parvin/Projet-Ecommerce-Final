@@ -57,47 +57,12 @@ if (!$result) {
 </head>
 <body>
 
-<section id="header">
-        <a href="index.php">
-            <img class="logo-img" src="/Assets/Img/ZIMAM.png">
-        </a>
-        <div>
-            <ul id="navbar">
-                <li><a href="index.php">HOME</a>
-                </li>
-                <li>
-                <a href="Collection.php">COLLECTION</a>
-                </li>
-                <li>
-                <a href="Homme.php">HOMME</a>
-                </li>
-                <li>
-                <a href="Femme.php">FEMME</a>
-                </li>
-                <li>
-                <a href="Enfant.php">ENFANT</a>
-                </li>
-                <li>
-                <a href="About.php">ABOUT</a>
-                </li>
-                <li>
-                    <a href="Cart.php">
-                        <i class="fa-solid fa-cart-shopping cart" style="color: #0c0d0e;"></i>
-                    </a></li>
-                <li>
-                    <a id="client-area" href="register_form.php">CONNEXION</a>
-                </li>
-            </ul>
-        </div>
-        
-        
 
-</section>
 
     
 
     <!-- Product Addition Form -->
-    <div class="adminpannel">
+    
     <h2>Add Product</h2>
     <?php if (isset($success_message)) { ?>
         <p style="color: green;"><?php echo $success_message; ?></p>
@@ -148,7 +113,7 @@ if (!$result) {
     </table>
 <?php } else { ?>
     <p>No products found.</p>
-    </div>
+    
     
 <?php } ?>
    
